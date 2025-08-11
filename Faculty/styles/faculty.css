@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 36px;
-    background:linear-gradient(to right,red,black);
+    background:linear-gradient(to left,red,black);
    
 }
 .faculty-heading{
     text-align: center;
     align-items: center;
     font-size: 45px;
-    color:white;
+    color: white;
     border-radius: 12px;
      box-shadow: 0px 10px 18px rgb(1, 1, 4);
 }
@@ -39,4 +39,45 @@ body{
     margin-right: 1px;
     padding: 20px;
 align-items: center;
+transition: transform 0.3s ease ,box-shadow 0.3s ease;
+}
+.faculty-card:hover{
+    border:2px solid #D25D5D;
+    background: radial-gradient(red,black);
+    transform: scale(1.5);
+    overscroll-behavior-x:0px 12px 32px rgb(0,0,1.5) ;
+}
+.list-style{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.list-style li{
+    
+    background-color: #D25D5D;
+    color: azure;
+    padding: 10px 10px 10px;
+    box-shadow: 0px 12px 30px rgb(red, white, black);
+    border-radius: 16px;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
+
+}
+.list-style li::before{
+    content: '⭕';
+    gap: 10px;
+    top: auto;
+    transform: translateY(50px);
+    left: 1px;
+    height: 10px;
+    width: 10px;
+    color: blue;
+    background-color: aliceblue;
+    align-content: center;
+    justify-content: center;
+}
+.list-style li:hover{
+    border:2px solid #D25D5D;
+    background: radial-gradient(red,black);
+    transform: scale(1.2);
+    overscroll-behavior-x:0px 12px 32px rgb(0,0,1.5) ;
 }

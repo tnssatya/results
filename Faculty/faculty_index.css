@@ -1,0 +1,25 @@
+.dashbord-div{
+     display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  margin: 40px auto;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.image{
+  border: 2px solid #58A0C8;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.image:hover {
+  transform: scale(1.4);
+}
+body{
+  background-color: white; /* Light background for better contrast */
+  font-family: Arial, sans-serif; /* Use a clean font */
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(to left, rgba(5, 33, 61, 0.858), white);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Mapped to Student</title>
+    <link rel="stylesheet" href="c_m_s.css">
+    
+</head>
+<body>
+
+    <h1>Courses Mapped to Student</h1>
+
+    <form class="student-form" action="#" method="post">
+        
+        <label for="studentId">Student ID</label>
+        <select id="studentId" name="studentId" required>
+            <option value="">-- Select Student ID --</option>
+            <option value="S101">S101</option>
+            <option value="S102">S102</option>
+            <option value="S103">S103</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+            <option value="">-- Select Subject --</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Computer Science">Computer Science</option>
+        </select>
+
+        <label for="email">Student Email ID</label>
+        <input type="email" id="email" name="email" placeholder="Enter student email" required>
+
+        <div>
+            <button type="submit">Confirm</button>
+            <button type="reset">Save</button>
+        </div>
+    </form>
+
+</body>
+</html>

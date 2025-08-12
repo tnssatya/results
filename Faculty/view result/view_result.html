@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Students Marks</title>
+    <link rel="stylesheet" href="view_result.css">
+    
+</head>
+<body>
+    <center><h1>View Class Students Marks</h1></center>
+
+    <div class="view-marks-container">
+        <form>
+            <label for="subject">Select Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">--Select Subject--</option>
+                <option value="maths">Mathematics</option>
+                <option value="science">Science</option>
+                <option value="english">English</option>
+                <option value="computer">Computer Science</option>
+            </select>
+
+            <label for="year">Select Year:</label>
+            <select id="year" name="year">
+                <option value="">--Select Year--</option>
+                <option value="1">1st Year</option>
+                <option value="2">2nd Year</option>
+                <option value="3">3rd Year</option>
+                <option value="4">4th Year</option>
+            </select>
+
+            <button type="button">Get</button>
+        </form>
+
+        <div class="results-section">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Student Name</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>John Doe</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>Jane Smith</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>David Johnson</td>
+                        <td>78</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

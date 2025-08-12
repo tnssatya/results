@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+.student-form {
+    background: #fff;
+    padding: 25px 30px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.student-form:hover {
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+.student-form h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.student-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.student-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.student-form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    background: #3498db;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.student-form button:hover {
+    background: #2980b9;
+}
+
+.student-form button[type="submit"] {
+    background: #27ae60;
+}
+
+.student-form button[type="submit"]:hover {
+    background: #1e8449;
+}

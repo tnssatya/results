@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to left, rgba(5, 33, 61, 0.858), white);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+.marks-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    width: 300px;
+    text-align: center;
+    border: 2px solid #58A0C8;
+}
+
+.marks-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.marks-card label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.marks-card input,
+.marks-card select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.marks-card button {
+    padding: 10px;
+    border: none;
+    background-color: #58A0C8;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.marks-card button:hover {
+    background-color: #417a9b;
+}
+
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

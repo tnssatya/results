@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses Mapped to Faculty</title>
+    <link rel="stylesheet" href="c_m_f.css">
+  
+</head>
+<body>
+
+    <h1>Courses Mapped to Faculty</h1>
+
+    <form class="faculty-form" action="#" method="post">
+        
+        <label for="facultyId">Faculty ID</label>
+        <select id="facultyId" name="facultyId" required>
+            <option value="">-- Select Faculty ID --</option>
+            <option value="F101">F101</option>
+            <option value="F102">F102</option>
+            <option value="F103">F103</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+            <option value="">-- Select Subject --</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics">Physics</option>
+            <option value="Computer Science">Computer Science</option>
+        </select>
+
+        <label for="email">Faculty Email ID</label>
+        <input type="email" id="email" name="email" placeholder="Enter faculty email" required>
+
+        <div>
+            <button type="submit">Confirm</button>
+            <button type="reset">Save</button>
+        </div>
+    </form>
+
+</body>
+</html>
